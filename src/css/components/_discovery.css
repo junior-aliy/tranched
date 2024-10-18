@@ -1,0 +1,48 @@
+#discovery {
+    width: 100%;
+}
+
+#discovery .box {
+    width: 45%;
+}
+
+#discovery .box .title {
+    font-size: 60px;
+    font-weight: 500;
+    color: #020617;
+}
+
+#discovery .box p.text {
+    font-size: 24px;
+    color: #020617;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 20px 0;
+}
+
+#discovery .box ul {
+    color: #1d4ed8;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#discovery .box .df__column {
+    gap: 8px;
+    margin: 32px 0;
+}
+
+#discovery .box > img {
+    border-radius: 24px;
+    overflow: hidden;
+    height: 597px;
+}
+
+#discovery .box .btn {
+    gap: 20px;
+    padding: 12px 24px;
+}
+
+#discovery .box .btn:hover i {
+    transform: translateX(5px);
+}

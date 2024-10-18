@@ -1,0 +1,79 @@
+header {
+    position: relative;
+    width: 100%;
+    height: min-content;
+    /* max-height: 100%; */
+    overflow: hidden;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 24px;
+    z-index: 1;
+}
+
+nav > .logo__box {
+    font-size: 24px;
+}
+
+header > .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100;
+    z-index: -1;
+}
+
+header > .overlay > img {
+    width: 100%;
+    height: 100%;
+    object-position: 0 -55px;
+}
+
+header .header__field {
+    padding: 286px 0;
+}
+
+header .header__field h1 {
+    color: #fff;
+    font-size: 96px;
+    line-height: 96px;
+}
+
+header .header__field h1:last-child {
+    color: #93c5fd;
+}
+
+header .header__field .df__between .box {
+    margin: 20px 0;
+    width: 50%;
+}
+
+header .header__field .box p {
+    font-size: 20px;
+    color: #94a3b8;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+header .header__field .outline__btn {
+    font-size: 28px;
+    color: #94a3b8 !important;
+    transition: all ease linear;
+    animation: downAnime 2s ease infinite;
+}
+header .header__field .outline__btn:hover {
+    color: #fff !important;
+}
+
+@keyframes downAnime {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
